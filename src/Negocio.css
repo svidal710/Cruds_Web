@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background: #f4f7fb;
+  color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra-superior {
+  background: #173b67;
+}
+
+.pagina {
+  min-height: 100vh;
+}
+
+.texto-superior {
+  color: #2875c7;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+}
+
+.titulo {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: #173b67;
+}
+
+.resumen,
+.sombra {
+  border: 1px solid #e3eaf2;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(23, 59, 103, 0.05);
+}
+
+.numero {
+  color: #173b67;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-header {
+  border-bottom: 1px solid #e8edf3;
+}
+
+.form-control,
+.form-select {
+  padding: 0.65rem 0.75rem;
+}
+
+.table thead th {
+  background: #f7f9fc;
+  color: #526174;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.table td {
+  padding: 0.85rem 0.75rem;
+}
+
+@media (max-width: 576px) {
+  .table td,
+  .table th {
+    font-size: 0.85rem;
+  }
+}
