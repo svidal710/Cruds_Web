@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Arroz",
+      "categoria": "Alimentos",
+      "precio": 3500,
+      "cantidad": 20
+    },
+    {
+      "id": "2",
+      "nombre": "Jabón",
+      "categoria": "Aseo",
+      "precio": 2800,
+      "cantidad": 15
+    },
+    {
+      "id": "3",
+      "nombre": "Leche",
+      "categoria": "Bebidas",
+      "precio": 4200,
+      "cantidad": 12
+    }
+  ]
+}
